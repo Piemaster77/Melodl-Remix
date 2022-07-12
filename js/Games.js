@@ -79,9 +79,50 @@ var melodleGames = [
         "uploader": "Piemaster77",
         "date": "2022-06-02",
         "key": "G"
-    }
+    },    
+    {
+        "id": "9",
+        "pitches": "A4,A4,G4,G4,F4,A4,C4",
+        "rhythm": "4n+8n,4n+16n,4n,4n+32n,4n+32n,4n,2n",
+        "tempo": 110,
+        "composer": "Piemaster77",
+        "uploader": "Piemaster77... By the way, you probably aren't reading this, but songs from now on are self composed and will be harder!",
+        "date": "2022-05-31",
+        "key": "A"
+    },
+    {
+        "id": "10",
+        "pitches": "A3,A3,A3,C4,G3,G3,G3,D4,F4,D4,B3,A3",
+        "rhythm": "8n,8n,8n,4n,8n,8n,8n,4n,4n+8n,4n+8n,4n+8n,2n",
+        "tempo": 100,
+        "composer": "Piemaster77",
+        "uploader": "Piemaster77",
+        "date": "2022-05-31",
+        "key": "A"
+    },
 ]
 
+var melodleBonusGames = [    
+    {
+        "id": "9",
+        "pitches": "A4,A4,G4,G4,F4,A4,C4",
+        "rhythm": "4n+8n,4n+16n,4n,4n+32n,4n+32n,4n,2n",
+        "tempo": 110,
+        "composer": "Piemaster77",
+        "uploader": "Piemaster77",
+        "date": "2022-05-31",
+        "key": "A"
+    },
+    {
+        "id": "10",
+        "pitches": "A3,A3,A3,C4,G3,G3,G3,D4,F4,D4,B3,A3",
+        "rhythm": "8n,8n,8n,4n,8n,8n,8n,4n,4n+8n,4n+8n,4n+8n,2n",
+        "tempo": 100,
+        "composer": "Piemaster77",
+        "uploader": "Piemaster77",
+        "date": "2022-05-31",
+        "key": "A"
+    },]
 var gameList = {};
 var gameNumber = melodleGames.length - 1;
 var currGame = melodleGames[gameNumber];
